@@ -1,0 +1,87 @@
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-4">
+      <img src="https://placebeard.it/640x360" alt="Matheus" class="img-fluid">
+    </div>
+    <div class="col-md-8 justify-content-center align-items-center">
+        <h1 class="mt-5">MATHEUS ZICOLAN ASCENCIO</h1>
+        <h5>ENGENHEIRO DA COMPUTAÇÃO E DESENVOLVEDOR DE SOFTWARE</h5>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-12">
+      <div class="d-flex justify-content-center">
+        <p>Acesse meu perfil no LinkedIn para ter mais informações sobre minha formação como profissional de T.I</p>
+      </div>
+      <div class="d-grid gap-2">
+        <a href="http://www.linkedin.com/in/matheus-ascencio" class="btn btn-success" target="_blank">Saiba mais</a>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5 mb-5">
+    <div class="col-12">
+      <app-carousel></app-carousel>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-light p-4">
+  <div class="row">
+    <div class="offset-md-1 col-md-11">
+      <h1>DESENVOLVIMENTO PERSONALIZADO</h1>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-md-4" *ngFor="let type of siteTypes">
+      <div class="d-flex justify-content-center m-2">
+        <app-card [title]="type.title" [img]="type.img" [link]="type.link"></app-card>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-light p-4">
+  <div class="row">
+    <div class="offset-md-1 col-md-11">
+      <h1>MODELOS PRONTOS</h1>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-md-4" *ngFor="let type of siteTypes">
+      <div class="d-flex justify-content-center m-2">
+        <app-card [title]="type.title" [img]="type.img" [link]="type.link"></app-card>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-light p-4">
+  <div class="row">
+    <div class="offset-md-1 col-md-11">
+      <h1>TECNOLOGIAS UTILIZADAS</h1>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-12">
+      <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Technology" class="d-md-none d-block mx-auto" id="techs1"/>
+      <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Technology" class="d-none d-md-block mx-auto" id="techs2"/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="d-flex justify-content-center mt-3">
+        <p>Todos os sites são desenvolvidos com as tecnologias mais modernas do mercado!</p>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5 mb-5">
+    <div class="col-md-3" *ngFor="let tech of techs">
+      <div class="d-flex justify-content-center m-2">
+        <app-card2 [title]="tech.title" [subtitle]="tech.subtitle" [link]="tech.link"></app-card2>
+      </div>
+    </div>
+  </div>
+</div>

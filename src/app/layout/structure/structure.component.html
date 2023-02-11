@@ -1,0 +1,24 @@
+<div class="container-fluid background">
+  <div class="row">
+    <div class="col-12">
+      <app-navbar></app-navbar>
+    </div>
+  </div>
+  <div class="d-md-none">
+    <a routerLink="/home" style="text-decoration: none;"><h1 class="logo-sm">ASCENCIO TECH</h1></a>
+  </div>
+  <div class="d-none d-md-block">
+    <a routerLink="/home" style="text-decoration: none;"><h1 class="logo-nm">ASCENCIO TECH</h1></a>
+  </div>
+  <hr/>
+</div>
+  <main>
+    <button (click)="scrollup()" class="btn btn-success up-1 d-none d-md-block">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="keyboard_arrow_up"></mat-icon>
+    </button>
+    <button (click)="scrollup()" class="btn btn-success up-2 d-md-none d-block">
+      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="keyboard_arrow_up"></mat-icon>
+    </button>
+    <router-outlet></router-outlet>
+  </main>
+<app-footer></app-footer>
