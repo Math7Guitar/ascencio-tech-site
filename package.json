@@ -1,6 +1,9 @@
 {
   "name": "ascencio-tech-front",
   "version": "0.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "heroku-postbuild": "ng build",
     "ng": "ng",
