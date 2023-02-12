@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-const appName = "ascencio-tech-site";
+const appName = "ascencio-tech-front";
 
 const outputPath = `${__dirname}/dist/${appName}`;
 
