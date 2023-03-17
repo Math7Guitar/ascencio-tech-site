@@ -20,4 +20,8 @@ export class SitesComponent {
   p3 = "Página com o intuito de informar o cliente a respeito de seu trabalho ou empresa / negócio.";
   p4 = "Página com o objetivo de mostrar seus produtos, sem vende-los diretamente, mas sim de gerar contato do cliente com sua empresa, negócio ou loja, para encomendar o produto ou serviço oferecido.";
   p5 = "Conjunto de telas informativas, a respeito deu seu produto ou serviço, com o intuito de capturar a atenção do cliente, de forma que ele navegue no site para consumir toda as informações, abstratas e mais específicas, disponibilizadas.";
+
+  //Prices
+
+  prices: Array<Array<number>> = [[500, 1000], [1000, 3000], [1500, 4000], [1000, 5000]]
 }

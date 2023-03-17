@@ -6,13 +6,14 @@
     </div>
   </div>
   <div class="row mt-4">
-    <div class="col-12 mb-5">
+    <div class="col-12 mb-4">
       <div class="d-flex justify-content-center">
         <img src="{{ frame }}" alt="teste" class="img-fluid d-md-none">
         <img src="{{ frame }}" alt="teste" class="frame d-none d-md-block">
       </div>
     </div>
   </div>
+  <hr>
   <div class="row mt-5">
     <div class="col-md-6">
       <img src="{{ hotsites }}" alt="hotsites" class="img-fluid d-md-none"/>
@@ -21,7 +22,8 @@
     <div class="col-md-6">
       <div class="d-block mt-4 mt-md-0">
         <h1>HOT SITE</h1>
-        <p>{{ p2 }}</p>
+        <p class="mt-3">{{ p2 }}</p>
+        <h2 class="mt-5">De {{ prices[0][0] | currency: "BRL" }} até {{ prices[0][1] | currency: "BRL" }}</h2>
       </div>
     </div>
   </div>
@@ -33,7 +35,8 @@
     <div class="col-md-6">
       <div class="d-block mt-4 mt-md-0">
         <h1>LANDING PAGES</h1>
-        <p>{{ p3 }}</p>
+        <p class="mt-3">{{ p3 }}</p>
+        <h2 class="mt-5">De {{ prices[1][0] | currency: "BRL" }} até {{ prices[1][1] | currency: "BRL" }}</h2>
       </div>
     </div>
   </div>
@@ -45,7 +48,8 @@
     <div class="col-md-6">
       <div class="d-block mt-4 mt-md-0">
         <h1>CATÁLOGO DE PRODUTOS</h1>
-        <p>{{ p4 }}</p>
+        <p class="mt-3">{{ p4 }}</p>
+        <h2 class="mt-5">De {{ prices[2][0] | currency: "BRL" }} até {{ prices[2][1] | currency: "BRL" }}</h2>
       </div>
     </div>
   </div>
@@ -57,7 +61,8 @@
     <div class="col-md-6">
       <div class="d-block mt-4 mt-md-0">
         <h1>SITE</h1>
-        <p>{{ p5 }}</p>
+        <p class="mt-3">{{ p5 }}</p>
+        <h2 class="mt-5">De {{ prices[3][0] | currency: "BRL" }} até {{ prices[3][1] | currency: "BRL" }}</h2>
       </div>
     </div>
   </div>
