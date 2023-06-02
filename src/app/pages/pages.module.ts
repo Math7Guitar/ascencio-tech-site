@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { SolarComponent } from './solar/solar.component';
 import { SitesComponent } from './sites/sites.component';
 import { HomeComponent } from './home/home.component';
+import { PcassemblyComponent } from './pcassembly/pcassembly.component';
 
 
 
@@ -12,7 +13,8 @@ import { HomeComponent } from './home/home.component';
   declarations: [
     SolarComponent,
     SitesComponent,
-    HomeComponent
+    HomeComponent,
+    PcassemblyComponent
   ],
   imports: [
     CommonModule,
