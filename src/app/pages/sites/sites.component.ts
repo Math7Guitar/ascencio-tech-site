@@ -17,7 +17,7 @@ export class SitesComponent {
   //Texts
   p1 = "A promoção de seu conteúdo, serviço ou produto, muitas vezes se torna uma dificuldade, devido a ausência de conhecimento para fazer o design e estruturar / criar seu primeiro contato com o cliente. Desconforto de simples resolução. Através de modelos já produzidos e integráveis você consegue e velocidade de entrega, para suas atividades começarem o quanto antes. Mas caso deseje algo com design que tenha sua identidade em cada detalhe, os sites personalizados, são sua melhor escolha.";
   p2 = "Página de Vendas rápidas. Deseja vender um produto específico ou serviço e ir direto ao ponto com seu cliente? Os Hot Sites promovem sua oferta e utilizam de gatilhos neurológicos para captar a atenção de seu cliente em potencial e transforma-la em vendas.";
-  p3 = "Página com o intuito de informar o cliente a respeito de seu trabalho ou empresa / negócio.";
+  p3 = "Página com o intuito de informar o cliente a respeito de seus produtos e/ou serviços ou empresa / negócio.";
   p4 = "Página com o objetivo de mostrar seus produtos, sem vende-los diretamente, mas sim de gerar contato do cliente com sua empresa, negócio ou loja, para encomendar o produto ou serviço oferecido.";
   p5 = "Conjunto de telas informativas, a respeito deu seu produto ou serviço, com o intuito de capturar a atenção do cliente, de forma que ele navegue no site para consumir toda as informações, abstratas e mais específicas, disponibilizadas.";
 

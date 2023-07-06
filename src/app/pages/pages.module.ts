@@ -24,7 +24,8 @@ import { PcassemblyComponent } from './pcassembly/pcassembly.component';
   exports: [
     SitesComponent,
     HomeComponent,
-    SolarComponent
+    SolarComponent,
+    PcassemblyComponent
   ]
 })
 export class PagesModule { }
